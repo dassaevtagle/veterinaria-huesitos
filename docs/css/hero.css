@@ -1,0 +1,40 @@
+.hero-section {
+  background-image: url("../images/dog-bg.png");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+@media only screen and (max-width: 750px){
+  #hero-logo {
+    display: none;
+  }
+  #conocenos-btn{
+    display: none;
+  }
+  .hero-mobile{
+    border-radius: 10px;
+    margin: auto;
+  }
+  .hero-section {
+    padding-top: 30px;
+  }
+}
+@media only screen and (min-width: 751px) {
+  .hero-section {
+    min-height: 95vh;
+  }
+  #hero-logo {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+  }
+  #conocenos-btn{
+    display: block;
+    margin-left: 235px;
+    margin-top: -319px;
+    position: absolute;
+    font-size: 57px;
+  }
+}
