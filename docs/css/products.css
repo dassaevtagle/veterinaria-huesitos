@@ -163,4 +163,22 @@
   }
 }
 
+.precio-corte{
+  width: 100%;
+  padding: 15px;
+  background-color: #000;
+}
 
+/* ...................VIP................. */
+.vip {
+  min-height: 97vh;
+  background-color: #eb6597;  
+  justify-content: center;
+  display: flex;
+}
+.vip-products{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 3rem
+}

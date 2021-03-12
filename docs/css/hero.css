@@ -9,6 +9,7 @@
 
 #hero-logo-mobile {
   max-width: 100%;
+  overflow: visible ;
 }
 @media only screen and (min-width: 454px){
   #hero-logo-mobile {
