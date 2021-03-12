@@ -190,16 +190,16 @@
   padding-bottom: 3rem;
 }
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 700px){
   .vip-products{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    margin: 0;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    margin: 0 3rem;
   }
 }
 
-@media only screen and (min-width: 301px){
+@media only screen and (min-width: 701px){
   .vip-products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
