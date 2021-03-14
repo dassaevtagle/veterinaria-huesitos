@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){new Splide("#card-slider",{perPage:2,breakpoints:{600:{perPage:2,rewind:!0,autoplay:!0}}}).mount()}));

@@ -11,6 +11,7 @@
 
 /* Grid columns and backgroung for mobile */
 @media only screen and (max-width: 750px){
+
   .products-section {
     grid-template-columns: 5% auto 5%;
     grid-template-rows: 100px auto auto auto auto 20px auto auto auto 20px auto auto auto 20px auto auto auto 60px;
@@ -95,6 +96,7 @@
 
 /* Grid columns and backgroung for tablets and desktop */
 @media only screen and (min-width: 751px){
+  
   .products-section {
     min-height: 97vh;
     grid-template-columns: 5% auto 10px auto 10px auto 10px auto 5%;
@@ -190,16 +192,25 @@
   padding-bottom: 3rem;
 }
 
-@media only screen and (max-width: 700px){
-  .vip-products{
+@media only screen and (max-width: 700px){  
+  .vip-products {
+    display: none;
+  }  
+  .vip{
+    min-height:20vh;
+  }
+  /* .vip-products{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
     margin: 0 3rem;
-  }
+  } */
 }
 
 @media only screen and (min-width: 701px){
+  #card-slider {
+    display: none;
+  }
   .vip-products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

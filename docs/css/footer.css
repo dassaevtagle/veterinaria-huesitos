@@ -1,6 +1,12 @@
 .footer {
-  height: 50vh;
+  height: 28vh;
   background-color: #000;
   display: flex;
-  justify-content: center;
+  padding: 20px;
+}
+.social_media{
+  margin: auto 0 auto 22px;
+}
+.social_media_icon{
+  max-width: 50px;
 }
