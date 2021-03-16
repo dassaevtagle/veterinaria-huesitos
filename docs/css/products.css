@@ -185,7 +185,6 @@
 
 /* ...................VIP................. */
 .vip {
-  min-height: 97vh;
   background-color: #eb6597;  
   justify-content: center;
   display: block;
@@ -199,24 +198,18 @@
   .vip{
     min-height:20vh;
   }
-  /* .vip-products{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    margin: 0 3rem;
-  } */
 }
 
 @media only screen and (min-width: 701px){
-  #card-slider {
+ /*  #vip-slide {
     display: none;
-  }
-  .vip-products{
+  } */
+  /* .vip-products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     margin: 0 3rem;
-  }
+  } */
 }
 
 .vip-item{

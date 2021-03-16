@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/general.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/navbar.css">
@@ -62,9 +62,12 @@
 	</header>
 		<div class="hero-section">
 			<img src="images/aaa.png" id="hero-logo">
+			<p id="hero-slogan"><b>Todo el amor que tu mascota merece.</b></p>
+			<button id="hero-cita">Agendar cita</button>
+			<button id="hero-prices">Precios y Servicios</button>
 			<!-- <button id="conocenos-btn">Conócenos</button> -->
 			<div class="hero-mobile">
-				<img id="hero-logo-mobile" src="images/hero-mobile1.png" >
+				<img id="hero-logo-mobile" src="images/logo.png" >
 				
 			</div>
 		</div> 
@@ -128,9 +131,10 @@
 		
 		<div class="vip">
 			<div style="width: 100%; background-color: white; height: 50px; margin-top: 40px; padding: 5px; display: inline-flex;">
-				<h1 style="margin: auto;">Servicios V.I.P</h1>
+				<h1 style="margin: auto;">Servicios V.I.P. &nbsp;<i class="far fa-star"></i>
+				</h1>
 			</div>	
-			<div class="vip-products">
+			<!-- <div class="vip-products">
 				<div class="vip-item">
 					<h3>Paticure</h3>
 					<img src="images/paticure.jpg">
@@ -161,46 +165,46 @@
 					<img src="images/twinkle_extensions.jpg">
 					<p>30$</p>
 				</div>
-			</div>
-			<div id="card-slider" class="splide" style="margin-top: 30px;">
+			</div> -->
+			<div id="vip-slide" class="splide" style="margin-top: 30px;">
 				<div class="splide__track">
 					<ul class="splide__list">
-						<li class="splide__slide" style="text-align: center;">
+						<li class="splide__slide" style="text-align: center; color: white;">
 							<img src="images/paticure.jpg">
 							<h4>Paticure</h4>
 							<div>
 								15$
 							</div>
 						</li>
-						<li class="splide__slide" style="text-align: center;">
+						<li class="splide__slide" style="text-align: center; color: white;">
 							<img src="images/aromaterapia.jpg">
 							<h4>Aromaterapia</h4>
 							<div>
 								10$
 							</div>
 						</li>
-						<li class="splide__slide" style="text-align: center;">
+						<li class="splide__slide" style="text-align: center; color: white;">
 							<img src="images/colorimetria.jpg">
 							<h4>Colorimetría</h4>
 							<div>
 								25$ por zona
 							</div>
 						</li>
-						<li class="splide__slide" style="text-align: center;">
+						<li class="splide__slide" style="text-align: center; color: white;">
 							<img src="images/cuidado_dental.jpg">
 							<h4>Cuidado dental</h4>
 							<div>
 								30$
 							</div>
 						</li>
-						<li class="splide__slide" style="text-align: center;">
+						<li class="splide__slide" style="text-align: center; color: white;">
 							<img src="images/mascarilla.jpg">
 							<h4>Mascarillas hidratantes</h4>
 							<div>
 								a partir de 15$
 							</div>
 						</li>
-						<li class="splide__slide" style="text-align: center;">
+						<li class="splide__slide" style="text-align: center; color: white;">
 							<img src="images/twinkle_extensions.jpg">
 							<h4>Twinkle extensions</h4>
 							<div>
@@ -212,43 +216,50 @@
 			</div>
 		</div>
 		<div class="examples"> 
-			<div class="card">
-  
-				<div class="card_part card_part-one">
+			<h1 id="clientes-satisfechos">Clientes satisfechos.</h1>
+			<div class="examples-sliders">
+				<div id="clientes-slider" class="splide">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide example-cliente" style="text-align: center;">
+								<img src="images/example_1.jpg">
+							</li>
+							<li class="splide__slide example-cliente" style="text-align: center;">
+								<img src="images/example_2.jpg">
+							</li>
+							<li class="splide__slide example-cliente" style="text-align: center;">
+								<img src="images/example_3.jpg">
+							</li>
+							<li class="splide__slide example-cliente" style="text-align: center;">
+								<img src="images/example_4.png">
+							</li>
+							<li class="splide__slide example-cliente" style="text-align: center;">
+								<img src="images/example_5.jpg">
+							</li>
+						</ul>
+					</div>
 				</div>
-				
-				 <!-- Photo 2 -->
-				<div class="card_part card_part-two">
-			
+				<div id="clientes-secondary-slider" class="splide">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide example-cliente">
+								<img src="images/example_1.jpg">
+							</li>
+							<li class="splide__slide example-cliente">
+								<img src="images/example_2.jpg">
+							</li>
+							<li class="splide__slide example-cliente">
+								<img src="images/example_3.jpg">
+							</li>
+							<li class="splide__slide example-cliente">
+								<img src="images/example_4.png">
+							</li>
+							<li class="splide__slide example-cliente">
+								<img src="images/example_5.jpg">
+							</li>
+						</ul>
+					</div>
 				</div>
-			
-				<!-- Photo 3 -->
-				<div class="card_part card_part-three">
-				</div>
-			
-				<!-- Photo 4 -->
-				<div class="card_part card_part-four">
-				</div>
-			
-			</div>
-			<div class="examples_description">
-				<h2 style="text-align: center;">Clientes satisfechos</h2>
-				<p class="recommendation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestias 
-					enim suscipit odit illo atque impedit aliquid cum itaque, 
-					quo at possimus omnis quae, doloribus tenetur officiis nam amet magni?
-				</p>
-				<br>
-				<p class="recommendation">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestias 
-					enim suscipit odit illo atque impedit aliquid cum itaque, 
-					quo at possimus omnis quae, doloribus tenetur officiis nam amet magni?
-				</p>
-				<br>
-				<p class="recommendation">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestias 
-					enim suscipit odit illo atque impedit aliquid cum itaque, 
-					quo at possimus omnis quae, doloribus tenetur officiis nam amet magni?
-				</p>
 			</div>
 		</div>
 		

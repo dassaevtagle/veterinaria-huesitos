@@ -1,113 +1,55 @@
 .examples{
-  height: 95vh;
   background-color: #fce9ef;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  display: grid;
+  padding-bottom: 14%;
+  padding-top: 5%;;
+  width: 100%;
 }
 
 /* Image slider css */
-
-
-.card {
-  position: relative;
-  
-  overflow: hidden;
+#clientes-slider {
   margin: auto;
-
-  border-radius: 5px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+#clientes-secondary-slider {
+  margin: auto 15px;
+}
 
-@media only screen and (max-width: 750px){
-  .card{
-    width: 81%;
-    height: 92%;
+.example-cliente{
+  border-radius: 10px;
+}
+
+.examples-sliders{
+  display: inline-flex;
+  margin: auto;
+}
+
+/* section responsive for mobile */
+@media only screen and (max-width: 800px){
+  #clientes-satisfechos{
+    text-align: center;
+    margin: 40px auto;
+  }
+  .examples-sliders{
   }
   .examples{
-    grid-template-rows: 10% 90%;
+    display: block;
+    text-align: center;
   }
-  .recommendation{
+}
+
+/* section responsive for desktop */
+
+@media only screen and (min-width: 801px){
+  #clientes-satisfechos{
+    margin: auto;
+  }
+  .examples{
+    display: inline-flex;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  #clientes-secondary-slider{
     display: none;
   }
-  .examples_description{
-    grid-row: 1;
-  }
-}
-@media only screen and (min-width: 751px){
-  .card{
-    width: 55%;
-    height: 100%;
-  }
-  .examples{
-    grid-template-columns: 60% 30%;
-  }
-}
-
-
-/*Light blue cover above the slide show*/
-.card::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 900;
-
-  display: block;
-  width: 100%;
-  height: 100%;
-
-  background-color: rgba(140, 22, 115, 0.2);
-}
-
-.card_part {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 7;
-
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  
-  transform: translateX( 700px );
-  background-image: url("../images/example_1.jpg" );
-  background-position: center center;
-  background-size: cover;
-  animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
-}
-
-
-.card_part.card_part-two {
-  z-index: 6;
-  background-image: url( "../images/example_2.jpg" );
-  animation-delay: 7s;
-  background-position: center top;
-  background-size: cover;
-}
-
-.card_part.card_part-three {
-  z-index: 5;
-  background-image: url( "../images/example_3.jpg" );
-  background-position: center center;
-  background-size: cover;
-  animation-delay: 14s;
-}
-
-.card_part.card_part-four {
-  z-index: 4;
-  background-image: url( "../images/example_4.png" );
-  background-position: center top;
-  background-size: cover;
-  animation-delay: 21s;
-}
-
-
-@keyframes opaqTransition {
-  3% { transform: translateX( 0 ); }
-  25% { transform: translateX( 0 ); }
-  28% { transform: translateX( -700px ); }
-  100% { transform: translateX( -700px ); }
 }
