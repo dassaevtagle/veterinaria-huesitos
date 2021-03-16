@@ -1,5 +1,4 @@
 .hero-section {
-  
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,22 +6,13 @@
   background-attachment: fixed;
 }
 
-#hero-logo-mobile {
-  max-width: 100%;
-  overflow: visible ;
-}
-@media only screen and (min-width: 454px){
-  #hero-logo-mobile {
-    margin-top: -28px
-  }
-}
 
 @media only screen and (max-width: 750px){
-  #hero-logo {
+  #hero-background-circle {
     display: none;
   }
-  #conocenos-btn{
-    display: none;
+  #hero-logo {
+    max-width: 100%;
   }
   .hero-mobile{
     border-radius: 10px;
@@ -43,6 +33,13 @@
     display: none;
   }
   #hero-logo {
+    position: absolute;
+    bottom: 111px;
+    left: 184px;
+    max-width: 398px;
+    border-radius: 100px;
+  }
+  #hero-background-circle{
     max-width: 100%; 
     height: auto; 
     display: block;
@@ -76,16 +73,5 @@
     background-color: white;
     font-size: 18px;
     padding: 8px;
-  }
-  #conocenos-btn{
-    display: block;
-    margin-left: 235px;
-    margin-top: -319px;
-    position: absolute;
-    font-size: 63px;
-    background-color: rgb(254, 221, 98);
-    border: none;
-    color: rgb(244, 139, 72);
-    font-family: 'Lilita One', cursive;
   }
 }

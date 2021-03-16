@@ -178,7 +178,17 @@ article h2 {
   }
   #main-menu-toggle {
     height: fit-content;
-    margin: auto 0 auto auto;
+    margin: auto 0;
+    color: black;
+    position: absolute;
+    left: 0;
+    top: 51px;
+  }
+  .logo{
+    margin: auto;
+  }
+  header{
+    direction: rtl;
   }
 } 
 
@@ -188,7 +198,8 @@ article h2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;;
+    align-items: center;
+    z-index: 1;
   }
   .nav-item{
     margin-left: 2rem;  

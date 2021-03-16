@@ -31,7 +31,8 @@ var clientesSecondarySlider = new Splide( '#clientes-secondary-slider', {
 			fixedHeight : 60,
 		},
 		'425': {
-			arrows: false
+			arrows: false,
+			fixedHeight : 60,
 		}
 	}
 } ).mount();
@@ -55,7 +56,7 @@ var clientesSlider = new Splide( '#clientes-slider', {
 		},
 		'425':{
 			pagination: true,
-			fixedWidth  : "60vw",
+			fixedWidth  : "70vw",
 			heightRatio	: 1.7,
 		}
 	}
