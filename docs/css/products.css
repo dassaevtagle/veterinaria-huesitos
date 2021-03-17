@@ -188,7 +188,7 @@
 
 /* ...................VIP................. */
 .vip {
-  background-color: #eb6597;  
+  background-color: black;  
   justify-content: center;
   padding-bottom: 3rem;
 }
@@ -204,15 +204,7 @@
 }
 
 @media only screen and (min-width: 751px){
- /*  #vip-slide {
-    display: none;
-  } */
-  /* .vip-products{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin: 0 3rem;
-  } */
+
   .vip{
     display: block;
   }

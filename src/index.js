@@ -12,6 +12,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
 	} ).mount();
 } );
 
+
 var clientesSecondarySlider = new Splide( '#clientes-secondary-slider', {
 	rewind      : true,
 	fixedWidth  : 100,

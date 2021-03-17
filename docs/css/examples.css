@@ -41,6 +41,7 @@
 @media only screen and (min-width: 801px){
   #clientes-satisfechos{
     margin: auto;
+    font-size: 69px;
   }
   .examples{
     display: inline-flex;

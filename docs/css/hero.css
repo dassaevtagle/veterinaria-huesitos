@@ -1,77 +1,59 @@
 .hero-section {
-  height: 80vh;
+  position: relative;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.hero-section::before {
+  background-image: url("../images/dog-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
 }
 
+#hero-logo {
+  position: relative;
+  max-width: 269px;
+  border-radius: 220px;
+}
 
+#hero-slogan{
+  position: relative;
+}
+#hero-cita{
+  position: relative;
+  border: #eb6597 solid;
+  border-radius: 10px;
+  color: white;
+  background-color: #eb6597;
+  font-size: 18px;
+  padding: 8px;
+}
+
+#hero-prices{
+  position: relative;
+  border: #eb6597 solid;
+  border-radius: 10px;
+  color: #eb6597;
+  background-color: white;
+  font-size: 18px;
+  padding: 8px;
+}
 @media only screen and (max-width: 750px){
-  #hero-background-circle {
-    display: none;
-  }
-  #hero-logo {
-    max-width: 100%;
-  }
-  .hero-mobile{
-    border-radius: 10px;
-    margin: auto;
-  }
-  .hero-section {
-    padding-top: 30px;
-    background-image: url("../images/example_1.jpg");
-    background-position: center center;
+  .hero-section{
+    height: 95vh;
   }
 }
 @media only screen and (min-width: 751px) {
-  .hero-section {
-    min-height: 95vh;
-    background-image: url("../images/dog-bg.png");
-  }
-  .hero-mobile{
-    display: none;
-  }
-  #hero-logo {
-    position: absolute;
-    bottom: 111px;
-    left: 184px;
-    max-width: 398px;
-    border-radius: 100px;
-  }
-  #hero-background-circle{
-    max-width: 100%; 
-    height: auto; 
-    display: block;
-  }
-
-  #hero-slogan{
-    position: absolute;
-    bottom: 160px;
-    left: 257px;
-  }
-
-  #hero-cita{
-    position: absolute;
-    bottom: 120px;
-    left: 240px;
-    border: #eb6597 solid;
-    border-radius: 10px;
-    color: white;
-    background-color: #eb6597;
-    font-size: 18px;
-    padding: 8px;
-  }
-
-  #hero-prices{
-    position: absolute;
-    bottom: 120px;
-    left: 375px;
-    border: #eb6597 solid;
-    border-radius: 10px;
-    color: #eb6597;
-    background-color: white;
-    font-size: 18px;
-    padding: 8px;
+  .hero-section{
+    height: 85vh;
   }
 }
