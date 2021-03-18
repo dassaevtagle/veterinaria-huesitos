@@ -10,3 +10,14 @@
 .social_media_icon{
   max-width: 50px;
 }
+#footer-logo{
+  border-radius: 160px; 
+  height: 7rem; 
+  margin: auto 0;
+}
+#instagram-icon{
+  width: 37px;
+}
+#tiktok-icon{
+  width: 40px;
+}

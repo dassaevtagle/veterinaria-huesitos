@@ -1,0 +1,80 @@
+.hero-section {
+  position: relative;
+  text-align: center;
+  padding-top: 5%;
+}
+
+#hero-logo {
+  position: relative;
+  max-width: 269px;
+  border-radius: 220px;
+}
+
+#hero-slogan{
+  position: relative;
+}
+#hero-cita{
+  position: relative;
+  border: #eb6597 solid;
+  border-radius: 10px;
+  color: white;
+  background-color: #eb6597;
+  font-size: 18px;
+  padding: 8px;
+}
+
+#hero-prices{
+  position: relative;
+  border: #eb6597 solid;
+  border-radius: 10px;
+  color: #eb6597;
+  background-color: white;
+  font-size: 18px;
+  padding: 8px;
+}
+
+/* responsive section for mobile */
+@media only screen and (max-width: 750px){
+  .hero-section{
+    height: 95vh;
+  }
+
+  .hero-section::before {
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  #hero-slogan{
+    color: white;
+  }
+}
+
+/* responsive section for desktop */
+@media only screen and (min-width: 751px) {
+  .hero-section{
+    height: 85vh;
+  }
+  .hero-section::before {
+    background-image: url("../../docs/images/dog-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+  }
+}

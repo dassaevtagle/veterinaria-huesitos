@@ -1,3 +1,12 @@
+import './css/examples.css';
+import './css/footer.css';
+import './css/general.css';
+import './css/hero.css';
+import './css/navbar.css';
+import './css/products.css';
+import cortes from '../docs/images/cortes-bg-1.png';
+import docBg from '../docs/images/dog-bg.png';
+
 document.addEventListener( 'DOMContentLoaded', function () {
 	new Splide( '#vip-slide', {
 		perPage: 4,

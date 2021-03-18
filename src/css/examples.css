@@ -48,6 +48,7 @@
   }
 }
 
+/* not to show secondary sliders on a certain width*/
 @media only screen and (max-width: 425px){
   #clientes-secondary-slider{
     display: none;
